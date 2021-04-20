@@ -40,7 +40,7 @@ This creates a file ``hello.txt`` from the file named ``my_hello.txt``:
 
 .. code-block:: python
 
-	with open('hello.txt', 'r') as hello_file:
+	with open('my_hello.txt', 'r') as hello_file:
 		conn.put_object(container_name, 'hello.txt',
 						contents= hello_file.read(),
 						content_type='text/plain')
